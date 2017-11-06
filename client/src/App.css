@@ -1,0 +1,68 @@
+body{
+	background-color: #f2f2f2
+}
+
+#devices{
+	font-size: large;
+}
+
+#connectors{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#details ul{
+	list-style: none;
+}
+#details{
+	display: flex;
+	justify-content: center;
+}
+
+#geo-button {
+	text-align: center;
+}
+
+#geo-button button{
+	margin: 8px 0px;
+}
+
+#address, #address-title{
+	text-align: left;
+	width: 50%;
+	padding: 0px;
+	margin: 0px 0px 0px 50px;
+}
+#connections{
+	margin-right: 50px;
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+@media screen and (max-width: 600px){
+
+	#devices{
+		position: fixed;
+		font-size: 3vw;
+		overflow: scroll;
+		height: 200px;
+	}
+
+	#address{
+	text-align: left;
+	width: 50%;
+	padding: 0px;
+	margin: 0px 0px 0px 10px;
+}
+	#connections{
+		margin-right: 8px;
+	}
+
+	#connectors{
+	width: 100%;
+	margin: 0 auto;
+}
+}

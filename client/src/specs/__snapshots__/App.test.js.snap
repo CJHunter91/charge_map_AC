@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: App should match its empty snapshot 1`] = `
+<section>
+  <article
+    id="map-loading"
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  />
+  <section
+    id="devices"
+  >
+    <label>
+      CHAdeMO
+    </label>
+    <input
+      onChange={[Function]}
+      type="checkbox"
+      value="JEVS G105 (CHAdeMO) DC"
+    />
+    <label>
+      Type 2 Combo (CSS)
+    </label>
+    <input
+      onChange={[Function]}
+      type="checkbox"
+      value="Type 2 Combo (IEC62196) DC"
+    />
+    <label>
+      Type 2 Mennekes
+    </label>
+    <input
+      onChange={[Function]}
+      type="checkbox"
+      value="Type 2 Mennekes (IEC62196)"
+    />
+    <label>
+      3-pin Type G
+    </label>
+    <input
+      onChange={[Function]}
+      type="checkbox"
+      value="3-pin Type G (BS1363)"
+    />
+    <button
+      onClick={[Function]}
+    >
+      User
+    </button>
+  </section>
+</section>
+`;
